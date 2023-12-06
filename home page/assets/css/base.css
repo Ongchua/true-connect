@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    box-sizing: inherit;
+
+    --background-color: #F9F0EC;
+    --while-color: #fff;
+    --red-color: #FF0054;
+    --green-color: #0DC5AE;
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+}
