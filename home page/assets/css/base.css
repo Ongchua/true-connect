@@ -2,7 +2,7 @@
     box-sizing: inherit;
 
     --background-color: #F9F0EC;
-    --while-color: #fff;
+    --white-color: #fff;
     --red-color: #FF0054;
     --green-color: #0DC5AE;
 
@@ -16,4 +16,26 @@ body {
     font-family: 'Lexend', sans-serif;
     font-family: 'Lora', serif;
     font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: var(--background-color);
+}
+.container {
+    max-width: 115.2rem;
+    margin: 0 auto;
+}
+.text-head-color {
+    color:  #0DC5AE;
+    font-family: Lora;
+    font-size: 6.4rem;
+    font-weight: 700;
+    
+}
+.text-head-color  span {
+    color: var(--red-color);
+}
+ul li, ul li a {
+    text-decoration: none;
+    list-style-type: none;
 }
