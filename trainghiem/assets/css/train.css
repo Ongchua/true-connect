@@ -1,0 +1,437 @@
+.header-pc {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    align-items: center;
+    gap: 5rem;
+    background-color: var(--background-color);
+}
+.navbar {
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+    
+}
+.navbar a {
+    text-decoration: none;
+    color:  #212B36;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 600;
+    transition: all .2s ;
+}
+.navbar .nav-active a{
+    color: var(--red-color);
+}
+.navbar a:hover {
+    color: var(--red-color);
+}
+/* header mobile */
+.header-mobile {
+    display: none;
+}
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    align-items: center;
+    background-color: var(--background-color);
+}
+.mobile-header .logo {
+    width: 23.1rem;
+    height: 6rem;
+}
+.mobile-header .logo img{
+   width: 100%;
+   height: 100%;
+}
+
+/* main  */
+
+.main {
+    padding: 8.5rem 0 18.8rem 0;
+}
+.train-main{
+    background-color: var(--white-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 14.3rem 1.5rem;
+    padding: 6.4rem 5.8rem;
+    border-radius: 16px;
+}
+.train-main-item {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    background: var(--white-color);
+    padding: 6.2rem 0 4.7rem 0;
+}
+.footer-main {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+/* .footer-left {
+    
+} */
+.footer-logo {
+    margin-bottom: 3.2rem;
+    transform: translateX(-2rem);
+}
+.footer-company {
+    color: #000;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 1.5rem;
+}
+.footer-company-mobile {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 15px;
+}
+.footer-ic_email {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    margin-bottom: 1rem;
+}
+.footer-ic_email span {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+.hotline {
+    color: var(--green-color);
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.6rem;
+    margin: 1.5rem 0;
+}
+.hotline span {
+    color: #212B36;
+}
+.certification p {
+    color:  #212B36;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    margin-bottom: .8rem;
+}
+.footer-contact > p:last-child {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    margin-top: 2rem;
+}
+
+.footer-document {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem ;
+    padding-top: 9rem;
+}
+.footer-document > h4 {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+.footer-document > p {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.footer-document > p:hover {
+    color: var(--red-color);
+}
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    padding-top: 9rem;
+}
+.footer-right h4 {
+    color: #212B36;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.footer-left-item {
+    color:  #212B36;
+    font-family: Poppins;
+    font-size: 1.3rem;
+    line-height: 24px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.footer-left-item:first-child {
+    margin-top: 0;
+}
+.footer-left-item:hover {
+    color: var(--red-color);
+}
+
+.footer-socical {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+.footer-socical-mobile-container {
+    display: none;
+}
+.footer-socical-item {
+    display: flex;
+    gap: 1rem;
+}
+.footer-socical-item  div img{
+    width: 5rem;
+    height: 5rem;
+}
+#email {
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    background:rgba(145, 158, 171, 0.08);
+    margin-right: 8px;
+    width: 31rem;
+}
+.email-btn {
+    width: 4.8rem;
+    height: 4.8rem;
+    background-color: var(--green-color);
+    border-radius: 8px;
+    border: none;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.form-mobile {
+    display: none;
+}
+.private {
+    display: none;
+}
+.form-mobile-footer-container {
+    display: none;
+}
+
+
+/* resposive */
+@media screen and (max-width: 1320px) {
+    html {
+        font-size: 50%;
+    }
+    body {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    .text-head-color {
+        font-size: 24px;
+    }
+    .text-red {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    html {
+        font-size: 37.5%;
+    }
+    .navbar a {
+        font-size: 14px;
+    }
+    .mission-number-line, .number-line {
+        display: none;
+    }
+    .header-pc {
+        display: none;
+    }
+    .header-mobile {
+        display: block;
+    }
+    .nav-button {
+       display: flex;
+       gap: 10px;
+       align-items: center;
+    }
+    .nav-button svg {
+        width: 4.8rem;
+        height: 4.8rem;
+    }
+ /* end */
+ /* train-main */
+    .train-main {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main {
+       border-radius: 16px;
+    }
+    /* footer */
+    footer *:not(:empty) {
+        font-size: 13px;
+    }
+    .footer-main {
+        padding: 0 2.5rem;
+    }
+    .footer-main h2 {
+        font-size: 20px;
+    }
+    .footer-company {
+        display: none;
+    }
+    .footer-logo {
+        margin-bottom: 2.7rem;
+    }
+    .footer-company-mobile {
+        display: block;
+    }
+    .form-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 820px)  {
+    html {
+        font-size: 31.25%;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    .text-head {
+        font-size: 16px;
+    }
+    .train-main {
+
+    }
+
+}
+/* mobile */
+@media screen and (max-width: 600px)  {
+    body {
+        margin: 0 25px;
+    }
+    h2 {
+        text-align: center;
+    }
+    .train-main {
+        grid-template-columns: auto;
+        padding-left: 20px;
+        padding-right: 10px;
+        grid-gap: 16px;
+
+    }
+/* end */
+    /* footer */
+    .footer-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-ic_email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-company {
+        font-size: 20px;
+        line-height: normal;
+    }
+    .footer-socical {
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-socical{
+        display: none;
+    }
+    .footer-socical-mobile-container {
+        display: block;
+    }
+    .footer-socical-mobile {
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+    }
+    .hotline {
+        padding-top: 10px;
+    }
+    .form-mobile-footer-container {
+        display: block;
+    }
+    .form-mobile-footer{
+        margin-top: 10px ;
+        width: 100%;
+        height: 48px;
+    }
+    .email-btn  {
+        width: 40px;
+        height: 40px;
+    }
+    #email {
+        width: 80%;
+        height: 100%;
+    }
+    .footer-contact p {
+        font-size: 13px;
+    }
+    .form-mobile-footer input {
+        width: 100%;
+    }
+    .footer-document {
+        display: none;
+    }
+    .footer-right {
+        display: none;
+    }
+    .dieu-khoan-mobile div {
+        display: flex;
+        gap: 13px   ;
+    }
+    .footer-contact > p:last-child {
+        font-size: 13px;
+        margin: 16px auto;
+    }
+    .private {
+        display: block;
+        
+    }
+    .private *:not(:empty) {
+        font-size: 13px;
+    }
+    .dieu-khoan-mobile p {
+        text-align: center;
+        color: #B4B4B4;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
