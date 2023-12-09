@@ -106,6 +106,7 @@
     border-radius: 8px;
     background: var(--white-color);
     box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+    display: none;
 }
 .input-mobile {
     padding: 11px 14px;
@@ -858,6 +859,9 @@ footer {
     }
     .search-input {
         display: none;
+    }
+    .search-mobile {
+        display: block;
     }
     .banner p {
         margin-bottom: 2rem;
